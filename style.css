@@ -1,0 +1,154 @@
+* {
+	padding: 0;
+	margin: 0;
+	/* border: 1px solid black; */
+}
+.main-contanor {
+	width: 100vw;
+	height: 100vh;
+}
+
+.page-outer-contanor {
+	width: 100%;
+	height: 100%;
+}
+
+​ .nav-outer-container {
+	height: 50px;
+	background-color: rgb(58, 59, 61);
+}
+.footer-outer-contanor {
+	width: 100%;
+	height: 60%;
+	background-color: rgba(50, 53, 241, 0.8);
+}
+.button {
+	border: 0;
+	background-color: gray;
+	color: white;
+}
+#Signup {
+	background-color: lightblue;
+	border-radius: 10px;
+	height: 30px;
+	width: 75px;
+	padding: 5px;
+}
+.form.example button {
+	float: left;
+	width: 20%;
+	padding: 10px;
+	background: gray;
+	color: rgb(61, 58, 58);
+	font-size: 17px;
+	border: 1px solid grey;
+	border-left: none;
+	cursor: pointer;
+}
+.bigger-contanor-nav {
+	display: flex;
+	justify-content: space-around;
+	background-color: gray;
+	align-items: center;
+}
+.button-contanor-nav {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	justify-content: flex-start;
+	margin-right: 100px;
+}
+#logo {
+	color: white;
+}
+.Registration-contanor {
+	display: flex;
+	gap: 22px;
+}
+.heder-contanor {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.page-iner-contanor {
+	padding-top: 29px;
+	padding-bottom: 128px;
+}
+#Teatcher {
+	padding: 2px;
+	color: gray;
+	border-color: gray;
+}
+.img-contanor {
+	height: 50px;
+	width: 45px;
+}
+.img-contanor1 {
+	width: 26px;
+	height: 16px;
+}
+.Floyed {
+	display: flex;
+}
+.inner-card {
+	display: flex;
+	justify-content: space-around;
+	column-gap: 62px;
+}
+.card-contanor {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+.card {
+	width: 213px;
+	height: 138px;
+	/* background-color: red; */
+	padding-top: 10px;
+	padding: 10px;
+	box-shadow: 2px 2px 2px gainsboro;
+}
+.card1 {
+	display: flex;
+	justify-content: space-around;
+}
+.first-inner-card {
+	display: grid;
+	height: 50%;
+}
+.upper-paragraph {
+	font-size: 9px;
+	color: gray;
+	padding-top: 2px;
+}
+.buttom-paragraph {
+	padding-top: 12px;
+	font-size: 10px;
+}
+
+.img-contanor3 {
+	padding-right: 2px;
+	height: 9px;
+}
+.img-contanor4 {
+	padding-right: 3px;
+	height: 11px;
+}
+/* .dad {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+} */
+.footer {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	padding-top: 54px;
+	width: 30%;
+	height: 100%;
+}
+.img-contanor5 {
+	height: 65px;
+	width: 65px;
+}
